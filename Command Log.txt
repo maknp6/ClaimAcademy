@@ -1,0 +1,37 @@
+
+Suzanne Goldberg@Suzanne MINGW64 ~ (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Suzanne Goldberg/.git/
+
+Suzanne Goldberg@Suzanne MINGW64 ~ (master)
+$ cd
+
+Suzanne Goldberg@Suzanne MINGW64 ~ (master)
+$ cd C:/Training/GitRepo
+
+Suzanne Goldberg@Suzanne MINGW64 /c/Training/GitRepo (master)
+$ git init
+Reinitialized existing Git repository in C:/Training/GitRepo/.git/
+
+Suzanne Goldberg@Suzanne MINGW64 /c/Training/GitRepo (master)
+$ git add Training001.txt
+
+Suzanne Goldberg@Suzanne MINGW64 /c/Training/GitRepo (master)
+$ git commit -m "01.02.02"
+[master 8c96b7a] 01.02.02
+ 1 file changed, 27 insertions(+), 1 deletion(-)
+
+Suzanne Goldberg@Suzanne MINGW64 /c/Training/GitRepo (master)
+$ git remote add origin https://github.com/maknp6/01.Repository
+fatal: remote origin already exists.
+
+Suzanne Goldberg@Suzanne MINGW64 /c/Training/GitRepo (master)
+$ git remote -v
+origin  https://github.com/maknp6/01.Repository.git (fetch)
+origin  https://github.com/maknp6/01.Repository.git (push)
+
+Suzanne Goldberg@Suzanne MINGW64 /c/Training/GitRepo (master)
+$ git push origin master
+
+
+$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
